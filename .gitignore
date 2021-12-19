@@ -43,3 +43,5 @@ phpunit.phar
 /backend/web/robots.txt
 
 docker-compose.override.yml
+
+.php-cs-fixer.cache
