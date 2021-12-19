@@ -45,3 +45,5 @@ phpunit.phar
 docker-compose.override.yml
 
 .php-cs-fixer.cache
+
+/node_modules
