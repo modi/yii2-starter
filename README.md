@@ -8,3 +8,4 @@
 - 添加了 PHP CS Fixer 配置文件
 - 连接 MySQL 时使用 utf8mb4 字符集编码
 - 使用 Yarn 管理前端依赖
+- 允许内网 IP 访问 Yii 的调试工具条
