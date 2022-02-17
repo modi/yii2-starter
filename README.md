@@ -10,3 +10,4 @@
 - 使用 Yarn 管理前端依赖
 - 允许内网 IP 访问 Yii 的调试工具条
 - 添加 yiisoft/yii2-shell 开发依赖
+- 去掉了 init 脚本，使用 app.env 来切换场景
