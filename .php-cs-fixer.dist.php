@@ -1,10 +1,9 @@
 <?php
 
 $finder = PhpCsFixer\Finder::create()
-    ->in(__DIR__.'/backend')
+    ->in(__DIR__.'/api')
     ->in(__DIR__.'/common')
     ->in(__DIR__.'/console')
-    ->in(__DIR__.'/frontend')
     ->exclude('tests/_support/_generated')
 ;
 
