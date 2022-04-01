@@ -6,23 +6,16 @@ $config = [
     'controllerNamespace' => 'api\controllers',
     'components' => [
         'request' => [
-            'csrfParam' => '_csrf-api',
+            'enableCsrfValidation' => false,
             'enableCookieValidation' => false,
             'parsers' => [
                 'application/json' => 'yii\web\JsonParser',
             ],
         ],
-        'session' => [
-            // this is the name of the session cookie used for login on the api
-            'name' => 'ss-api',
-        ],
         // 'user' => [
         //     'identityClass' => 'common\models\User',
-        //     'enableAutoLogin' => true,
-        //     'identityCookie' => [
-        //         'name' => '_id',
-        //         'httpOnly' => true,
-        //     ],
+        //     'enableSession' => false,
+        //     'loginUrl' => null,
         // ],
         'errorHandler' => [
             'errorAction' => 'site/error',

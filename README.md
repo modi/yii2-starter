@@ -8,7 +8,7 @@
 - 添加了 PHP CS Fixer 配置文件
 - 连接 MySQL 时使用 utf8mb4 字符集编码
 - 使用 Yarn 管理前端依赖
-- 允许内网 IP 访问 Yii 的调试工具条
+- 允许局域网 IP 访问 Yii 的调试工具条
 - 添加 yiisoft/yii2-shell 开发依赖
 - 去掉了 init 脚本，使用 app.env 来切换场景
 - 初始的子项目只保留一个：`api`
@@ -19,12 +19,11 @@
 
     composer create-project modi/yii2-starter:dev-master
 
-## 运行项目
+## 搭建开发环境
 
 1）初始化 Docker Compose 配置
 
     cp docker-compose.override.yml.dist docker-compose.override.yml
-
 
 2）初始化项目配置
 
